@@ -121,4 +121,4 @@ Run any of the apps (e.g., `app1.py`):
 ```bash
 python app1.py
 ```
-Access the app in your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000).
+Access the app in your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000), or at [http://127.0.0.1:5001](http://127.0.0.1:5001), depending on how you've configured your project.
