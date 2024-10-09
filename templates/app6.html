@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Flask App</title>
+        <!-- url_for: function to navigate through urls/files -->
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename= 'style.css')}}">
+    </head>
+    <body>
+        <h1> {{ message }}</h1>
+        <!-- If user gives input, navigate to /greet-->
+        <form method="POST" action="/greet">
+            <!-- Input text box -->
+            <input type="test" id="name" name="name" required>
+            <!-- Submit button -->
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
